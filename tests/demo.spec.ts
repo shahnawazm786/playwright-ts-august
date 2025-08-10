@@ -6,3 +6,7 @@ test("demo", async ({ page }) => {
 test("demo1", async ({ page }) => {
   await page.goto("https://www.google.com");
 });
+
+test("demo2", async ({ page }) => {
+  await page.goto("https://www.google.com");
+});
